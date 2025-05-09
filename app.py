@@ -40,7 +40,7 @@ st.markdown("""
 
 # --- Title and Header ---
 st.markdown("<h1 style='text-align:center;'>🧠 SmartSymptom AI</h1>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align:center;'>حدد الأعراض التي تشعر بها:</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align:center;'>حدد الأعراض التي تشعر بها</h3>", unsafe_allow_html=True)
 
 # --- Symptoms Form ---
 user_input = []
