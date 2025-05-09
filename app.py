@@ -12,6 +12,12 @@ symptoms = [
     'confusion', 'neck_stiffness', 'joint_pain'
 ]
 
+symptoms1 = [
+    'fever/حمى', 'cough/سعال', 'fatigue/إرهاق', 'shortness_of_breath/ضيق تنفس', 'headache/صداع',
+    'vomiting/تقيؤ', 'dizziness/دوخة', 'muscle_pain/ألم في العضلات', 'chest_pain/ألم في الصدر', 'diarrhea/إسهال',
+    'confusion/ارتباك', 'neck_stiffness/تصلب في الرقبة', 'joint_pain/ألم في المفاصل'
+]
+
 # تحميل النموذج والـ label encoder
 model = pickle.load(open('xgb_model.pkl', 'rb'))
 le = pickle.load(open('label_encoder.pkl', 'rb'))
@@ -23,7 +29,7 @@ st.subheader("حدد الأعراض التي تشعر بها:")
 user_input = []
 
 # بناء مدخلات المستخدم
-for symptom in symptoms:
+for symptom in symptoms1:
     val = st.checkbox(symptom.replace('_', ' ').capitalize())
     user_input.append(1 if val else 0)
 
