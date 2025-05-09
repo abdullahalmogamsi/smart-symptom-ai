@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://github.com/abdullahalmogamsi/smart-symptom-ai/blob/main/smart_symptom_logo.png?raw=true" width="200"/>
+</p>
 
 # SmartSymptom AI 🤖🩺  
 **الذكاء الاصطناعي لتشخيص الأعراض**
