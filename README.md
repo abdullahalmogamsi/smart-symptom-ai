@@ -3,6 +3,7 @@
 **الذكاء الاصطناعي لتشخيص الأعراض**
 
 SmartSymptom AI is a lightweight, AI-powered web application that predicts potential medical conditions based on user-reported symptoms.
+
 سمارت سمبتوم AI هو تطبيق ويب ذكي وخفيف، يتنبأ بالحالات الصحية المحتملة بناءً على الأعراض التي يحددها المستخدم.
 
 ---
